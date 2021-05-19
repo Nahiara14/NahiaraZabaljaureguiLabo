@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1621426469 source:c:\users\nahiara\desktop\notebook\fecha.c
+	<stdio.h>
+	<stdlib.h>
+	"fecha.h"
+
+1621426455 c:\users\nahiara\desktop\notebook\fecha.h
+
+1621436509 source:c:\users\nahiara\desktop\notebook\marca.c
+	<stdio.h>
+	<stdlib.h>
+	"marca.h"
+
+1621433059 c:\users\nahiara\desktop\notebook\marca.h
+

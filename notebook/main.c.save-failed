@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "fecha.h"
+#include "marca.h"
+#include "tipo.h"
+#include "notebook.h"
+#include "servicio.h"
+#include "trabajo.h"
+
+
+#define TAMMARC 4
+#define TAMTIP 4
+#define TAMS 4
+
+int main()
+{
+    int idTrabajo=500;
+
+    int idMarca=1000;
+    int idTipo=5000;
+    int idServicio=20000;
+    eMarca marcas[TAMMARC]=
+    {
+        {1000, "Compaq"},
+        {1001, "Asus"},
+        {1002, "Acer"},
+        {1003, "HP"}
+    };
+
+    eTipo tipo[TAMTIP]=
+    {
+        {5000, "Gamer"},
+        {5001, "Disenio"},
+        {5002, "Ultrabook"},
+        {5003, "Normalita"}
+    };
+
+    eServicio servicios[TAMS]=
+    {
+        {20000, "Bateria",250},
+        {20001, "Fideos con tuco", 300},
+        {20002, "Pizza", 480},
+        {20003, "Pastel de papa", 350},
+        {20004, "Ensalada", 190}
+    };
+
+    eNotebook computadora;
+
+
+    return 0;
+}
